@@ -5,7 +5,7 @@ const mongoDB = require("./db");
 mongoDB();
 
 app.use((req, res, next) => {
-    res.header("Access-Control-Allow-Origin", "https://food-delivery-mern-1-36xu.onrender.com/");
+    res.header("Access-Control-Allow-Origin", "https://food-delivery-mern-1-36xu.onrender.com");
     res.header(
         "Access-Control-Allow-Headers",
         "Origin, X-Requested-With, Content-Type, Accept"

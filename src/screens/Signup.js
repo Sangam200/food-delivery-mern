@@ -8,7 +8,7 @@ export default function Signup() {
         e.preventDefault();
 
         console.log({name: credentials.name, email: credentials.email, password: credentials.password, location:credentials.geolocation});
-        const response = await fetch("http://localhost:5000/api/creatuser", {
+        const response = await fetch("https://food-delivery-mern-1zso.onrender.com/api/creatuser", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
